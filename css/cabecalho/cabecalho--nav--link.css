@@ -1,0 +1,7 @@
+.cabecalho__nav__link {
+  text-transform: uppercase;
+  background: var(--bg-color-azul);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

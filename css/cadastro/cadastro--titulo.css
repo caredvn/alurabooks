@@ -1,0 +1,17 @@
+.cadastro__titulo {
+  font-size: 1.8rem;
+  font-weight: 500; 
+  background: var(--bg-color-azul);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width:1024px) {
+  .cadastro__titulo {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 0;
+  }
+}

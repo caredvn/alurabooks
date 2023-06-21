@@ -1,0 +1,18 @@
+.cabecalho__opcoes {
+  display: none;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__opcoes {
+    display: flex;
+    align-items: center;
+    gap: 4.2rem;
+  }
+
+  /* .cabecalho__opcoes:hover {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+}
+

@@ -1,0 +1,6 @@
+.cadastro__paragrafo {
+  background: var(--bg-color-azul);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,27 @@
+@import url(./banner--titulo.css);
+@import url(./banner--texto.css);
+@import url(./banner--busca--input.css);
+
+.banner {
+  background: var(--bg-color-azul);
+  text-align: center;
+  padding: 3.2rem;
+  color: var(--color-branca);
+  padding-top: 10rem;
+}
+
+@media screen and (min-width:1024px) {
+  .banner {
+    padding: 9rem 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .banner {
+    padding: 8.4rem;
+  }
+}

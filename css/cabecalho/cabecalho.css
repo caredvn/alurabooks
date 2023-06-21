@@ -1,0 +1,44 @@
+@import url(cabecalho--nav.css);
+@import url(cabecalho--nav--dropdown.css);
+@import url(cabecalho--nav--botao.css);
+@import url(cabecalho--nav--lista.css);
+@import url(cabecalho--nav--titulo.css);
+@import url(cabecalho--nav--item.css);
+@import url(cabecalho--nav--link.css);
+@import url(./cabecalho--icons.css);
+@import url(./cabecalho--icons--item.css);
+@import url(./cabecalho--icons--item--texto.css);
+@import url(./cabecalho--link.css);
+@import url(./cabecalho--titulo.css);
+@import url(./cabecalho--opcoes.css);
+@import url(./cabecalho--opcoes--item.css);
+@import url(./cabecalho--opcoes--link.css);
+@import url(./cabecalho--opcoes--lista.css);
+@import url(./cabecalho--opcoes--dropdown.css);
+@import url(./cabecalho--opcoes--lista--item.css);
+
+.cabecalho {
+  display: flex;
+  height: 80px;
+  padding: 0px 18px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-branca);
+  position: fixed;
+  width: calc(100% - 36px);
+  z-index: 3;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho {
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .cabecalho {
+    position: relative;
+  }
+}

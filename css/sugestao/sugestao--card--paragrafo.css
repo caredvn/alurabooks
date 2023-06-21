@@ -1,0 +1,6 @@
+.sugestao__card__paragrafo {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--color-texto);
+  margin-bottom: 13px;
+}

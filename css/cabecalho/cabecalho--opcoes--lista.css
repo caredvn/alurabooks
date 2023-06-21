@@ -1,0 +1,9 @@
+.cabecalho__opcoes__lista {
+  display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  top: 74%;
+  background-color: var(--color-branca);
+}

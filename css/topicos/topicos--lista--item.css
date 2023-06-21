@@ -1,0 +1,28 @@
+.topicos__lista__item {
+  padding: 1.6rem 2.4rem;
+  background-color: var(--color-amarelo);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.topicos__lista__item a {
+  color: var(--color-branca);
+  text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+  .topicos__lista__item {
+    font-size: 2.4rem;
+    padding: 2.4rem 3.2rem;
+  }
+
+  .topicos__lista__item:hover {
+    background-color: var(--color-laranja);
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .topicos__lista__item {
+    line-height: 3.6rem;
+  }
+}

@@ -1,0 +1,5 @@
+.rodape__lista__titulo {
+  text-transform: uppercase;
+  color: var(--color-cinza-claro);
+  font-size: 1.4rem;
+}

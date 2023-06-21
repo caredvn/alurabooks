@@ -1,0 +1,48 @@
+.banner__busca__input {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid var(--color-branca);
+  border-radius: 24px;
+  color: var(--color-branca);
+  margin-top: 1.6rem;
+}
+
+.banner__busca__input::placeholder {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: var(--color-branca);
+  background: url(../../img/Pesquisa.svg) no-repeat;
+  background-position: -0.2rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.banner__busca__input:focus-visible {
+  outline: none;
+}
+
+@media screen and (min-width:1024px) {
+  .banner__busca__input {
+    width: 50%;
+    padding: 1.6rem 4.6rem;
+    margin-top: 0;
+  }
+
+  .banner__busca__input::placeholder {
+    font-size: 1.6rem;
+    background-position: 3rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .banner__busca__input {
+    width: 35%;
+  }
+
+  .banner__busca__input::placeholder {
+    background-position: 6.8rem;
+  }
+}

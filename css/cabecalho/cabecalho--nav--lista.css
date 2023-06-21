@@ -1,0 +1,16 @@
+.cabecalho__nav__lista {
+  display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  width: 60%;
+  left: 0;
+  top: 100%;
+  gap: 3.2rem;
+  padding: 1.6rem 2.4rem;
+  margin: 0px;
+  background-color: #fff;
+  transition: all .5s ease-in-out;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}

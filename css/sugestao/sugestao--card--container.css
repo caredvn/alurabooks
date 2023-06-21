@@ -1,0 +1,8 @@
+.sugestao__card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+.cabecalho__titulo {
+  margin: 0;
+  font-weight: 300;
+  font-size: 3rem;
+  font-family: var(--fonte-secundaria);
+  display: none;
+}
+
+.cabecalho__titulo strong {
+  font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .cabecalho__titulo strong {
+    margin-left: 12px;
+  }
+}

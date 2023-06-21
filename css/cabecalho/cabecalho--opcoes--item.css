@@ -1,0 +1,38 @@
+.cabecalho__opcoes__item {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.cabecalho__opcoes__botao {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: var(--color-preto);
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__opcoes__botao:hover {
+    cursor: pointer;
+  }
+
+    .cabecalho__opcoes__item:hover {
+      background: var(--bg-color-azul);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .cabecalho__opcoes__item:active {
+      background: var(--bg-color-laranja);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+}
+
+@media screen and (min-width:1728px) {
+
+  .cabecalho__opcoes__botao {
+    padding: 1rem;
+  }
+}

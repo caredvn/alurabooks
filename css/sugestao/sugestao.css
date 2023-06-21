@@ -1,0 +1,24 @@
+@import url(./sugestao--card.css);
+@import url(./sugestao--card--container.css);
+@import url(./sugestao--card--subtitulo.css);
+@import url(./sugestao--card--titulo.css);
+@import url(./sugestao--card--paragrafo.css);
+@import url(./sugestao--card--icons.css);
+@import url(./sugestao--card--icons--item.css);
+@import url(./sugestao--card--img.css);
+@import url(./sugestao--card--link.css);
+@import url(./sugestao--card--icons--link.css);
+
+@media screen and (min-width:1024px) {
+  .sugestao {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .sugestao {
+    justify-content: flex-start;
+    width: 30%;
+  }
+}

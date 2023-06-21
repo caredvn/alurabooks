@@ -1,0 +1,16 @@
+@media screen and (min-width:1024px) {
+  .carrossel__container {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .carrossel__container {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 9.6rem;
+  }
+}

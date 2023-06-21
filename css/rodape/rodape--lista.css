@@ -1,0 +1,18 @@
+.rodape__lista {
+  display: none;
+}
+
+@media screen and (min-width:1024px) {
+  .rodape__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .rodape__lista {
+    padding-left: 2rem;
+    border-left: 1px solid var(--color-cinza-claro);
+  }
+}

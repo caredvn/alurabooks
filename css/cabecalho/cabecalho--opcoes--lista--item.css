@@ -1,0 +1,32 @@
+.cabecalho__opcoes__lista__item {
+  padding: 1.6rem 2.4rem;
+}
+
+.cabecalho__opcoes__lista__titulo {
+  background: var(--bg-color-azul) ;
+  padding-top: 2.4rem;
+}
+
+.cabecalho__opcoes__lista__link {
+  text-decoration: none;
+  background: var(--bg-color-azul);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cabecalho__opcoes__lista__link__titulo {
+  text-decoration: none;
+  color: var(--color-branca);
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__opcoes__lista__item:hover {
+    background: var(--bg-color-azul);
+  }
+
+  .cabecalho__opcoes__lista__item:hover> .cabecalho__opcoes__lista__link {
+    -webkit-text-fill-color: var(--color-branca);
+  }
+  
+}

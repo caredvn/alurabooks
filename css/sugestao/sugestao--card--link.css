@@ -1,0 +1,17 @@
+.sugestao__card__link {
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--color-amarelo);
+  color: var(--color-branca);
+  font-weight: 700;
+  padding: 1.2rem 0;
+  width: 100%;
+  margin-top: calc(2.4rem - 9px);
+}
+
+@media screen and (min-width:1024px) {
+  .sugestao__card__link:hover {
+    background: var(--bg-color-laranja);
+    transition: all ease 700ms;
+  }
+}

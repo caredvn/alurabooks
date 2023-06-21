@@ -1,0 +1,21 @@
+.banner__titulo {
+  margin: 0 0 8px 0;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 27px;
+}
+
+@media screen and (min-width:1024px) {
+  .banner__titulo {
+    padding-top: 8.4rem;
+    font-size: 3.6rem;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .banner__titulo {
+    padding: 0;
+    line-height: 5.4rem;
+  }
+}

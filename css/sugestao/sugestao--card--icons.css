@@ -1,0 +1,5 @@
+.sugestao__card__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.8rem;
+}

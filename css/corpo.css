@@ -1,0 +1,30 @@
+:root {
+  --bg-color-cinza: #EBECEE;
+  --bg-color-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --bg-color-laranja: linear-gradient(180deg, #FD8325 67.71%, #FC6621 100%);
+  
+  --color-laranja: #FD8325;
+  --color-branca: #ffffff;
+  --color-amarelo: #EB9B00;
+  --color-azul: #002F52;
+  --color-texto: #000000D9;
+  --color-preto: #000000;
+  --color-cinza-medio: #474646;
+  --color-cinza-claro: #858585;
+
+  --fonte-primaria: 'Poppins', sans-serif;
+  --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+.corpo {
+  background-color: var(--bg-color-cinza);
+  font-family: var(--fonte-primaria);
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  height: 100vh;
+}
+
+.esconde {
+  display: none;
+}

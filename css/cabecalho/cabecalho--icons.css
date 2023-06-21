@@ -1,0 +1,20 @@
+.cabecalho__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__icons {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .cabecalho__icons {
+    width: 25%;
+    gap: 3rem;
+  }
+}

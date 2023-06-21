@@ -1,0 +1,12 @@
+.rodape__lista__item__link {
+  color: var(--color-cinza-medio);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media screen and (min-width:1024px) {
+  .rodape__lista__item__link:hover {
+    color: var(--color-cinza-claro);
+  }
+}

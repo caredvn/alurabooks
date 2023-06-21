@@ -1,0 +1,25 @@
+@import url(./topicos--titulo.css);
+@import url(./topicos--lista.css);
+@import url(./topicos--lista--item.css);
+
+.topicos {
+  background: var(--bg-color-azul);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.4rem 0;
+}
+
+@media screen and (min-width:1024px) {
+  .topicos {
+    padding: 3.2rem 0;
+    margin-top: 4.8rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .topicos {
+    padding: 6.4rem 0 7.4rem 0;
+    margin-top: 6rem;
+  }
+}

@@ -1,0 +1,6 @@
+@media screen and (min-width:1024px) {
+  .sugestao__card__icons__link:hover {
+    transition: all ease 300ms;
+    transform: scale(1.15);
+  }
+}

@@ -1,0 +1,12 @@
+.rodape__titulo {
+  padding: 1.6rem 0 2.4rem 2.4rem;
+  color: var(--color-preto);
+}
+
+@media screen and (min-width:1024px) {
+  .rodape__titulo {
+    padding: 0;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}

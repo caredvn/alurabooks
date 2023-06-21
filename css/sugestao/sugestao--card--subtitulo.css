@@ -1,0 +1,12 @@
+.sugestao__card__subtitulo {
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--color-amarelo);
+}
+
+@media screen and (min-width:1728px) {
+  .sugestao__card__subtitulo {
+    font-size: 32px;
+  line-height: 48px;
+  }
+}

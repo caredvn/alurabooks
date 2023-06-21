@@ -1,0 +1,23 @@
+@import url(./rodape--titulo.css);
+@import url(./rodape--lista.css);
+@import url(./rodape--lista--titulo.css);
+@import url(./rodape--lista--item.css);
+@import url(./rodape--lista--item--img.css);
+@import url(./rodape--lista--item--link.css);
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width:1024px) {
+  .rodape {
+    padding: 5.2rem 2.4rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .rodape {
+    justify-content: space-around;
+  }
+}

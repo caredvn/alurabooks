@@ -1,0 +1,19 @@
+.cabecalho__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__nav {
+    width: 67%;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .cabecalho__nav {
+    justify-content: flex-start;
+    width: 60%;
+  }
+}

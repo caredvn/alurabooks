@@ -1,0 +1,9 @@
+.cabecalho__icons__item__texto {
+  display: none;
+}
+
+@media screen and (min-width:1728px) {
+  .cabecalho__icons__item__texto {
+    display: block;
+  }
+}

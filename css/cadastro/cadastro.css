@@ -1,0 +1,29 @@
+@import url(./cadastro--titulo.css);
+@import url(./cadastro--paragrafo.css);
+@import url(./cadastro--email.css);
+@import url(./cadastro--email--img.css);
+@import url(./cadastro--email--input.css);
+@import url(./cadastro--container.css);
+
+.cadastro {
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: var(--color-branca);
+}
+
+@media screen and (min-width:1024px) {
+  .cadastro {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .cadastro {
+    padding: 6.4rem;
+  }
+}
