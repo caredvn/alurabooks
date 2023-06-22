@@ -8,6 +8,17 @@
   border-radius: 24px;
 }
 
+@media screen and (max-width:420px) {
+  .cadastro__email {
+    gap: 1rem;
+  }
+
+  .cadastro__email__img {
+    margin-left: 5%;
+    width: initial;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .cadastro__email {
     margin: 0;
