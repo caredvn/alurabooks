@@ -14,3 +14,12 @@
 .cadastro__email__input:focus-visible {
   outline: none;
 }
+
+@media screen and (max-width:420px) {
+  .cadastro__email__input::placeholder {
+    width: 100%;
+  }
+  .cadastro__email__input {
+    overflow: hidden;
+  }
+}
