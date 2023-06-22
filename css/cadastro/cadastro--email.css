@@ -10,7 +10,7 @@
 
 @media screen and (max-width:420px) {
   .cadastro__email {
-    gap: 1rem;
+    gap: .5rem;
   }
 
   .cadastro__email__img {
