@@ -20,6 +20,7 @@ function desativaListaMobile() {
   hamburguer.classList.add("cabecalho__nav__botao")
   hamburguer.classList.remove("cabecalho__nav__botao--ativo");
   hamburguerBg.style.display = "none";
+  document.querySelector(".banner__busca__input").style.visibility = "visible";
 }
 
 function ativaListaMobile() {
@@ -27,6 +28,7 @@ function ativaListaMobile() {
   barra.style.backgroundColor = '#fff';
   hamburguer.classList.add("cabecalho__nav__botao--ativo");
   hamburguerBg.style.display = "block";
+  document.querySelector(".banner__busca__input").style.visibility = "hidden";
 }
 
 hamburguer.addEventListener("click", () => {
