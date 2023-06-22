@@ -1,3 +1,10 @@
 .cadastro__email__img {
   margin-left: 2.6rem;
 }
+
+@media screen and (max-width:420px) {
+  .cadastro__email__img {
+    margin-left: 3%;
+    width: initial;
+  }
+}
