@@ -23,7 +23,7 @@ O desafio consiste na integração de uma interface responsiva e dinâmica, que 
 
 Versão mobile (0px ---> 1023px)
 
-![alurabooks - interface mobile](https://github.com/caredvn/alurabooks/assets/107898347/b0fe6cd5-a01a-49ae-a58a-e7c096b8782a)
+![alurabooks - interface mobile](https://github.com/caredvn/alurabooks/assets/107898347/7fc8aa46-b6a3-4ca5-a900-8c9f8a0cdb15)
 
 Versão tablet (1024px ---> 1727px)
 
