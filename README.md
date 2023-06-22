@@ -51,6 +51,7 @@ Versão desktop (a partir de 1728px)
 ### O que eu aprendi
 
 Nesse projeto eu aprendi a integração de um botão toggle com o uso do JavaScript no menu de um site para liberar outra parte do conteúdo.
+Aprendi também a integração da livraria e recursos do [SwiperJS](https://swiperjs.com).
 Além disso, aprendi mais sobre a função das media queries dentro do CSS, além da importância de contruír sites responsivos pensando sempre na experiência do usuário utilizando o website.
 
 ## Autora
