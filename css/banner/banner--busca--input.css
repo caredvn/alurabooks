@@ -24,6 +24,13 @@
   outline: none;
 }
 
+@media screen and (max-width:420px) {
+  .banner__busca__input::placeholder {
+    background: none;
+    overflow: visible;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .banner__busca__input {
     width: 50%;
@@ -34,15 +41,5 @@
   .banner__busca__input::placeholder {
     font-size: 1.6rem;
     background-position: 3rem;
-  }
-}
-
-@media screen and (min-width:1728px) {
-  .banner__busca__input {
-    width: 35%;
-  }
-
-  .banner__busca__input::placeholder {
-    background-position: 6.8rem;
   }
 }
