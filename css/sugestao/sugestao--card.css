@@ -9,6 +9,16 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width:420px) {
+  .sugestao__card__container {
+    width: 50%;
+  }
+
+  .sugestao__card__img {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .sugestao__card {
     width: 50%;
